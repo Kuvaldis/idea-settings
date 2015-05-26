@@ -1,0 +1,634 @@
+<application>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="1234" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="10" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="EVALUATION_DIALOG_TYPE" value="EvaluateFragment" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAsk" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <option name="SHOW_LIBRARY_STACKFRAMES" value="false" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="DependencyUISettings">
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="GwtSdkManager">
+    <gwt-sdk-list>
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.1" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.5.0" />
+    </gwt-sdk-list>
+  </component>
+  <component name="LastSelectedPropertiesFileStore" lastSelectedFileUrl="file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/i18n/labels.properties">
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/taglib/com/nedap/sally/common/web/RequestProcessingTagLib.groovy" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/labels.properties" />
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/views/requestView/requestStatusDetails.gsp" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/admin-messages.properties" />
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/controllers/com/nedap/sally/admin/web" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/admin-messages.properties" />
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/views/requestView" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/admin-messages.properties" />
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/taglib/com/nedap/sally/common/web" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/labels.properties" />
+    <entry context="file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/views/settings" url="file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/i18n/labels.properties" />
+    <entry context="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/views/email" url="file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/admin-messages.properties" />
+    <entry context="file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/views/settings/index.gsp" url="file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/i18n/labels.properties" />
+  </component>
+  <component name="PropertiesSeparatorManager">
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/com/firstlinesoftware/ecm/2.2.0-beta/ecm-2.2.0-beta.jar!/com/firstlinesoftware/ecm/client/messages/EcmMessages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Toir/overlays/com.firstlinesoftware.reference-2.2-20130705.130350-27/WEB-INF/classes/alfresco/messages/bpm-messages" separator="\u002e" />
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/org/springframework/security/spring-security-core/3.2.3.RELEASE/spring-security-core-3.2.3.RELEASE.jar!/org/springframework/security/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/i18n/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/admin-messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/FPKLoyal/trunk/private-office-auth/private-office-auth-web/src/main/resources/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/OnlyOnce/onlyonce/onlyonce/app/onlyonce/onlyonce-web/grails-app/i18n/labels" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/default-messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/mail-messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/labels" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Toir/src/main/java/com/firstlinesoftware/ecm/client/messages/EcmMessages" separator="\u002e" />
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/com/firstlinesoftware/ecm/2.2-SNAPSHOT/ecm-2.2-SNAPSHOT.jar!/com/firstlinesoftware/ecm/client/messages/EcmMessages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/fpkintsr/branches/HISTORY_SELING_TRAIN/HistorySelingTrain/fpk-historyseling-web/src/main/resources/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/sandbox/async-mail/grails-app/i18n/messages" separator="\u002e" />
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/com/firstlinesoftware/base/2.2-SNAPSHOT/base-2.2-SNAPSHOT.jar!/com/firstlinesoftware/base/client/messages/BaseMessages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/objects" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/DynOpt/trunk/source/fpk-intsrv-web/src/main/resources/messages" separator="\u002e" />
+    <file url="file://C:/Work/Proj/Toir/src/main/java/com/firstlinesoftware/ecm/client/messages/EcmMessages_ru.properties" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Sally/sally/app/sally-app/grails-app/i18n/application-messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Toir/src/main/webapp/WEB-INF/classes/toir_messages" separator="\u002e" />
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/com/firstlinesoftware/ord/2.2/ord-2.2.jar!/com/firstlinesoftware/ord/client/messages/OrdMessages" separator="\u005f" />
+    <file url="resourceBundle:jar://C:/Users/NFadin/.m2/repository/com/firstlinesoftware/ord/2.2-SNAPSHOT/ord-2.2-SNAPSHOT.jar!/com/firstlinesoftware/ord/client/messages/OrdMessages" separator="\u005f" />
+    <file url="resourceBundle:file://C:/Work/Proj/FPKLoyal/trunk/private-office/private-office-web/src/main/resources/messages" separator="\u002e" />
+    <file url="resourceBundle:file://C:/Work/Proj/Toir/src/main/java/com/firstlinesoftware/plm/client/messages/PlmMessages" separator="\u002e" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="MOVE_SEARCH_FOR_TEXT" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+  </component>
+  <component name="SelectProjectTemplateSettings">
+    <option name="EXPERT_MODE" value="true" />
+    <option name="LAST_TEMPLATE" value="Java/Maven Module" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://github.com/Kuvaldis/playground" />
+        <option value="https://svn.firstlinesoftware.com/itco/mskmetro" />
+        <option value="https://svn.domain.corp/internal/alfresco/trunk/_fixes" />
+        <option value="https://svn.domain.corp/internal/alfresco/trunk" />
+        <option value="https://svn.domain.corp/rzd/fpkintsr" />
+        <option value="https://svn.domain.corp/tps/toirdemo/trunk" />
+        <option value="https://www.projects.openhealthtools.org/svn/mdmi/trunk" />
+        <option value="https://svn.domain.corp/rzd/fpkloyal" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://github.com/Kuvaldis/playground" />
+        <option value="https://svn.firstlinesoftware.com/itco/mskmetro/trunk/MskMetro.Server" />
+        <option value="https://svn.firstlinesoftware.com/itco/mskmetro" />
+        <option value="https://svn.domain.corp/internal/alfresco/trunk/_fixes" />
+        <option value="https://svn.domain.corp/internal/alfresco/trunk" />
+        <option value="https://svn.domain.corp/rzd/fpkintsr" />
+        <option value="https://svn.domain.corp/rzd/historyselingtrain" />
+        <option value="https://svn.domain.corp/rzd" />
+        <option value="https://svn/internal/alfresco/trunk/" />
+        <option value="https://svn/internal/alfresco/trunk/_fixes" />
+        <option value="https://svn.domain.corp/tps/toirdemo/trunk" />
+        <option value="https://www.projects.openhealthtools.org/svn/mdmi/trunk" />
+        <option value="https://svn.domain.corp/rzd/fpkloyal" />
+        <option value="https://svn.domain.corp/rzd/fpkloyal/" />
+      </list>
+    </option>
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="https://svn.domain.corp/rzd/fpkintsr/branches/HISTORY_SELING_TRAIN/HistorySelingTrain">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\HistorySelingTrain" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn.domain.corp/rzd/fpkloyal/branches/Feature_24315">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\FPKLoyal\branches\Feature_24315" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn.domain.corp/rzd/fpkloyal/branches/RC8.0">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\FPKLoyal\branches\RC8.0" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn.domain.corp/rzd/fpkloyal/branches/RC9.1">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\FPKLoyal\branches\RC9.1" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn.domain.corp/rzd/fpkloyal/trunk">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\FPKLoyal\trunk" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn/internal/alfresco/trunk">
+          <value>
+            <set>
+              <option value="C:\Work\Proj\Alfresco\ref\trunk" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings" PATCH_STORAGE_LOCATION="C:\Work\Proj\OnlyOnce">
+    <option name="PATCH_STORAGE_LOCATION" value="C:\Work\Proj\OnlyOnce" />
+  </component>
+  <component name="WebServicesPluginSettings" SelectedPlatform="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" WebServicesUrlPathPrefix="/services" PathToXmlBeans="C:\Users\NFadin\.IntelliJIdea11\system\webservices\xmlbeans-2.3.0" ASK_TO_INSTALL_SOAPUI="true">
+    <StubPackage>ru.rzd.loyalty.api</StubPackage>
+    <StubPackage>ru.rzd.loyalty.api.data</StubPackage>
+    <StubUrl>file:/C:/Work/Proj/FPKLoyal/branches/RC14.0/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/CardService.wsdl</StubUrl>
+    <StubUrl>file:/C:/Work/Proj/FPKLoyal/trunk/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/RegistrationApplicantService.wsdl</StubUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/branches/RC14.0/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/CardService.wsdl</JAXBUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/trunk/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/RegistrationApplicantService.wsdl</JAXBUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/trunk/private-office-auth/private-office-auth-web/src/main/resources/wsdl/application/RegistrationApplicantService.wsdl</JAXBUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/trunk/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/main/RegistrationApplicantResponse.xsd</JAXBUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/trunk/fpkloyal-app/fpkloyal-app-api/src/main/resources/xsd/main/AccessRestoreSetNewPasswordRequest.xsd</JAXBUrl>
+    <JAXBUrl>file:/C:/Work/Proj/FPKLoyal/trunk/private-office/private-office-service/src/main/resources/wsdl/application/main/AccessRestoreSetNewPasswordRequest.xsd</JAXBUrl>
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="attributes">
+      <TextAttributes />
+    </option>
+    <option name="contextAttributes">
+      <TextAttributes />
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Singleton" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <resource url="urn:jboss:domain:osgi:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-osgi_1_0.xsd" />
+    <resource url="urn:jboss:domain:osgi:1.2" location="J:/appserver/jboss7/docs/schema/jboss-as-osgi_1_2.xsd" />
+    <resource url="urn:jboss:domain:messaging:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-messaging_1_1.xsd" />
+    <resource url="urn:jboss:domain:osgi:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-osgi_1_1.xsd" />
+    <resource url="urn:jboss:domain:mail:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-mail_1_0.xsd" />
+    <resource url="urn:jboss:ejb-client:1.0" location="J:/appserver/jboss7/docs/schema/jboss-ejb-client_1_0.xsd" />
+    <resource url="urn:jboss:domain:remoting:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-remoting_1_1.xsd" />
+    <resource url="urn:jboss:ejb-client:1.1" location="J:/appserver/jboss7/docs/schema/jboss-ejb-client_1_1.xsd" />
+    <resource url="urn:jboss:domain:remoting:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-remoting_1_0.xsd" />
+    <resource url="urn:jboss:domain:messaging:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-messaging_1_0.xsd" />
+    <resource url="urn:jboss:domain:weld:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-weld_1_0.xsd" />
+    <resource url="urn:jboss:domain:web:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-web_1_0.xsd" />
+    <resource url="urn:jboss:domain:web:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-web_1_1.xsd" />
+    <resource url="urn:jboss:domain:naming:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-naming_1_1.xsd" />
+    <resource url="urn:jboss:domain:ee:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-ee_1_0.xsd" />
+    <resource url="urn:jboss:domain:naming:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-naming_1_0.xsd" />
+    <resource url="urn:jboss:pojo:7.0" location="J:/appserver/jboss7/docs/schema/jboss-pojo_7_0.xsd" />
+    <resource url="urn:jboss:domain:datasources:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-datasources_1_0.xsd" />
+    <resource url="urn:jboss:cli:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-cli_1_0.xsd" />
+    <resource url="urn:jboss:domain:jsr77:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jsr77_1_0.xsd" />
+    <resource url="urn:jboss:domain:logging:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-logging_1_1.xsd" />
+    <resource url="urn:jboss:domain:logging:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-logging_1_0.xsd" />
+    <resource url="urn:jboss:domain:cmp:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-cmp_1_0.xsd" />
+    <resource url="urn:jboss:domain:configadmin:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-configadmin_1_0.xsd" />
+    <resource url="urn:jboss:domain:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-config_1_1.xsd" />
+    <resource url="urn:jboss:domain:1.2" location="J:/appserver/jboss7/docs/schema/jboss-as-config_1_2.xsd" />
+    <resource url="urn:jboss:domain:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-config_1_0.xsd" />
+    <resource url="urn:jboss:domain:jaxr:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-jaxr_1_1.xsd" />
+    <resource url="urn:jboss:domain:jaxr:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jaxr_1_0.xsd" />
+    <resource url="urn:jboss:domain:threads:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-threads_1_0.xsd" />
+    <resource url="urn:jboss:domain:threads:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-threads_1_1.xsd" />
+    <resource url="urn:jboss:domain:jdr:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jdr_1_0.xsd" />
+    <resource url="urn:jboss:domain:security:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-security_1_0.xsd" />
+    <resource url="urn:jboss:domain:jacorb:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jacorb_1_0.xsd" />
+    <resource url="urn:jboss:domain:jmx:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-jmx_1_1.xsd" />
+    <resource url="urn:jboss:domain:xts:1.0" location="J:/appserver/jboss7/docs/schema/jboss-xts.xsd" />
+    <resource url="urn:jboss:domain:jacorb:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-jacorb_1_1.xsd" />
+    <resource url="urn:jboss:domain:jmx:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jmx_1_0.xsd" />
+    <resource url="urn:jboss:domain:jpa:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jpa_1_0.xsd" />
+    <resource url="urn:jboss:domain:security:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-security_1_1.xsd" />
+    <resource url="urn:jboss:domain:sar:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-sar_1_0.xsd" />
+    <resource url="urn:jboss:service:7.0" location="J:/appserver/jboss7/docs/schema/jboss-service_7_0.xsd" />
+    <resource url="urn:jboss:domain:pojo:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-pojo_1_0.xsd" />
+    <resource url="urn:jboss:domain:modcluster:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-mod-cluster_1_0.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-ejb3_1_0.xsd" />
+    <resource url="urn:jboss:domain:jca:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jca_1_0.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-ejb3_1_1.xsd" />
+    <resource url="urn:jboss:domain:transactions:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-txn_1_0.xsd" />
+    <resource url="urn:jboss:domain:transactions:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-txn_1_1.xsd" />
+    <resource url="urn:jboss:messaging-deployment:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-messaging-deployment_1_0.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.2" location="J:/appserver/jboss7/docs/schema/jboss-as-ejb3_1_2.xsd" />
+    <resource url="urn:jboss:domain:jgroups:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-jgroups_1_1.xsd" />
+    <resource url="urn:jboss:domain:jaxrs:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jaxrs_1_0.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.2" location="J:/appserver/jboss7/docs/schema/jboss-as-infinispan_1_2.xsd" />
+    <resource url="urn:jboss:domain:deployment-scanner:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-deployment-scanner_1_0.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-infinispan_1_1.xsd" />
+    <resource url="urn:jboss:domain:deployment-scanner:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-deployment-scanner_1_1.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-infinispan_1_0.xsd" />
+    <resource url="urn:jboss:domain:jgroups:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-jgroups_1_0.xsd" />
+    <resource url="urn:jboss:domain:resource-adapters:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-resource-adapters_1_0.xsd" />
+    <resource url="urn:jboss:domain:webservices:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-webservices_1_1.xsd" />
+    <resource url="urn:jboss:domain:jca:1.1" location="J:/appserver/jboss7/docs/schema/jboss-as-jca_1_1.xsd" />
+    <resource url="urn:jboss:domain:webservices:1.0" location="J:/appserver/jboss7/docs/schema/jboss-as-webservices_1_0.xsd" />
+    <resource url="urn:jboss:jbossws-jaxws-config:4.0" location="J:/appserver/jboss7/docs/schema/jbossws-jaxws-config_4_0.xsd" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="tapestry:parameter" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="mvcRunTargetHistory">
+    <option value="#" />
+  </component>
+</application>
