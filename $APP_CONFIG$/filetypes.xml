@@ -5,6 +5,7 @@
       <mapping pattern="metro-app" type="PLAIN_TEXT" />
       <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping pattern="spring-tiles-defs.xml" type="XML" />
