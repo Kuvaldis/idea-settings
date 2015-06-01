@@ -2,11 +2,9 @@
   <component name="FileTypeManager" version="14">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <removed_mapping ext="conf" type="HOCON" />
       <mapping pattern="metro-app" type="PLAIN_TEXT" />
       <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
-      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping pattern="spring-tiles-defs.xml" type="XML" />
