@@ -78,9 +78,13 @@
           <option name="url" value="https://github.com/Kuvaldis/playground" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mtedone/podam" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Study\playground" />
+    <option name="cloneParentDir" value="C:\Study" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="C:\Work\Proj\1A-Auto\Onea-Blc-Ent" />
