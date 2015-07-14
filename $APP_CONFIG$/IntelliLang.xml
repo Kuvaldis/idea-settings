@@ -5,9 +5,5 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
-    <injection language="XML" injector-id="java">
-      <display-name>SendMessageActionDefinition.payload (com.consol.citrus.dsl.definition)</display-name>
-      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("payload").withParameters("java.lang.String").definedInClass("com.consol.citrus.dsl.definition.SendMessageActionDefinition"))]]></place>
-    </injection>
   </component>
 </application>
