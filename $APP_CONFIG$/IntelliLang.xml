@@ -5,5 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="HTML" injector-id="java">
+      <display-name>Response.Response (kuvaldis.play.http)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(2, psiMethod().withName("Response").withParameters("kuvaldis.play.http.mapper.ResponseCode", "java.lang.String", "java.lang.String").definedInClass("kuvaldis.play.http.Response"))]]></place>
+    </injection>
   </component>
 </application>
